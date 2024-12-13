@@ -1,0 +1,14 @@
+ip: "127.0.0.1"
+port: 8082
+api:
+  max_message_size: 32
+usecase:
+  default_message: "Запрос обработан"
+  error_message: "Произошла ошибка"
+  input_error_message: "Age должен быть целым числом"
+db:
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "postgres"
+  dbname: "sandbox"

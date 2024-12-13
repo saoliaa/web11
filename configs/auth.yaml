@@ -1,0 +1,14 @@
+ip: "127.0.0.1"
+port: 8021
+api:
+  max_message_size: 32
+usecase:
+  default_message: "Счётчик обновлен"
+  error_message: "Произошла ошибка"
+  input_error_message: "Нужно вводить только целые числа"
+db:
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "postgres"
+  dbname: "sandbox"
